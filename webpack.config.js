@@ -24,15 +24,15 @@ module.exports = {
     },
     module:{
         loaders:[
+            // {
+            //     test: /\.jsx?$/,
+            //     loaders: ['eslint-loader'],
+            //     include: APP_PATH,
+            //     enforce: 'pre'
+            // },
             {
                 test: /\.jsx?$/,
-                loaders: ['eslint'],
-                include: APP_PATH,
-                enforce: 'pre'
-            },
-            {
-                test: /\.jsx?$/,
-                loaders: ['babel'],
+                loaders: ['babel-loader'],
                 include: APP_PATH
             }
         ]

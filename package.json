@@ -19,6 +19,8 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-loader": "^1.7.1",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "jsx-ast-utils": "^1.4.1",
     "style-loader": "^0.16.1",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.5"

@@ -1,6 +1,4 @@
 {
-    "extends": "airbnb",
-    "rules":{
-        "comma-dangle":["error","never"]
-    }
+  "extends": "airbnb",
+  "plugins": ["react"]
 }
