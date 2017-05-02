@@ -1,9 +1,8 @@
 import React, {Component, PropTypes} from 'react';
-import ReactDOM from 'react-dom';
 
-// const propTypes = {
-//     hobby: PropTypes.string.isRequired
-// }
+const propTypes = {
+    hobby: PropTypes.string.isRequired
+}
 
 // class Hobby extends Component{
 //     render(){

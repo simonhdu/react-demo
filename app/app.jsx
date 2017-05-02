@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import Profile from './Profile';
+import Detail from './Detail';
 
 /*function App(){
     return(
@@ -16,6 +17,7 @@ const props = {
 }
 
 ReactDOM.render(
-    <Profile {...props} />,
+
+    <Detail />,
     document.body.appendChild(document.createElement('div'))
 )

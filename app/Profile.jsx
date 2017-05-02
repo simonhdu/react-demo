@@ -18,6 +18,16 @@ class Profile extends Component{
         this.addHobbyCallback = this.addHobbyCallback.bind(this);
     }
 
+    componentWillUpdate(){
+        console.log('props更新前：');
+        console.log(this.state);
+    }
+
+    componentDidUpdate(){
+        console.log('props更新后：');
+        console.log(this.state);
+    }
+
     componentDidMount(){
         console.log('componentDidMount 组件装载完毕')
     }
